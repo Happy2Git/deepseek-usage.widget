@@ -1,0 +1,10 @@
+.DS_Store
+
+# Local DeepSeek balance history and exported usage CSVs.
+# These files can contain account IDs, masked API keys, key names, spend, and usage.
+data/*
+!data/.gitkeep
+
+# Local scratch output from ad-hoc testing.
+*.tmp
+*.log
