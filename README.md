@@ -2,6 +2,8 @@
 
 Ubersicht widget that displays your DeepSeek account balance on the desktop.
 
+![DeepSeek usage widget screenshot](Screenshot_sample.png)
+
 ## Features
 
 - Current balance (CNY)
