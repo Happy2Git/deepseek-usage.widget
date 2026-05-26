@@ -234,7 +234,7 @@ def parse_amount_csv():
             total["models"][row["model"]] += row["amount"]
         total["cost"] += row["cost"]
 
-        key_id = row["key"] or row["name"]
+        key_id = row["name"] or row["key"]
         key_total = total["keys"].setdefault(key_id, {
             "name": row["name"],
             "key": row["key"],
